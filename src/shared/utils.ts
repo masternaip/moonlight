@@ -10,7 +10,7 @@ export const resizeImage = (
 
 // export const embedMovie = (id: number): string => `${EMBED_VIDSRC}/${id}`;
 
-export const embedMovie = (id: number): string => `${EMBED_TO}/movie?id=${id}`;
+// export const embedMovie = (id: number): string => `${EMBED_TO}/movie?id=${id}`;
 
 // export const embedTV = (id: number, season: number, episode: number): string =>
 //   `${EMBED_URL}/series?tmdb=${id}&sea=${season}&epi=${episode}`;
@@ -18,8 +18,8 @@ export const embedMovie = (id: number): string => `${EMBED_TO}/movie?id=${id}`;
 // export const embedTV = (id: number, season: number, episode: number): string =>
 //   `${EMBED_VIDSRC}/${id}/${season}-${episode}`;
 
-export const embedTV = (id: number, season: number, episode: number): string =>
-  `${EMBED_TO}/tv?id=${id}&s=${season}&e=${episode}`;
+// export const embedTV = (id: number, season: number, episode: number): string =>
+  // `${EMBED_TO}/tv?id=${id}&s=${season}&e=${episode}`;
 
 export const calculateTimePassed = (time: number): string => {
   const unit = {
