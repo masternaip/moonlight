@@ -19,7 +19,7 @@ export const resizeImage = (
 //   `${EMBED_VIDSRC}/${id}/${season}-${episode}`;
 
 // export const embedTV = (id: number, season: number, episode: number): string =>
-  // `${EMBED_TO}/tv?id=${id}&s=${season}&e=${episode}`;
+//   `${EMBED_TO}/tv?id=${id}&s=${season}&e=${episode}`;
 
 export const calculateTimePassed = (time: number): string => {
   const unit = {
