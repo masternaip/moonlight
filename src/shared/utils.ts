@@ -21,6 +21,7 @@ export const resizeImage = (
 // export const embedTV = (id: number, season: number, episode: number): string =>
 //   `${EMBED_TO}/tv?id=${id}&s=${season}&e=${episode}`;
 
+
 export const calculateTimePassed = (time: number): string => {
   const unit = {
     year: 12 * 30 * 24 * 60 * 60 * 1000,
