@@ -45,7 +45,7 @@ const BannerSlider: FC<BannerSliderProps> = ({
                 className="group"
               >
                 <LazyLoadImage
-                  src={resizeImage(film.backdrop_path, "w1280")}
+                  src={resizeImage(film.backdrop_path, "original")}
                   alt="Backdrop image"
                   effect="blur"
                 />
